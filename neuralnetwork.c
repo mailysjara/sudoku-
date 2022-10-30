@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-// Simple network that can learn XOR
+
 // Feartures : sigmoid activation function, stochastic gradient descent, and mean square error fuction
 
 // Activation function and its derivative
@@ -84,7 +84,6 @@ int main (void) {
             
             int i = trainingSetOrder[x];
             
-            // Forward pass
             
             // Compute hidden layer activation
             for (int j=0; j<numHiddenNodes; j++) {
